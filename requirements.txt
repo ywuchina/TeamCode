@@ -1,0 +1,8 @@
+torch
+torchvision
+wandb
+pillow
+numpy
+h5py
+lightly
+gdown
