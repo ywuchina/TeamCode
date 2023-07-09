@@ -1,57 +1,59 @@
-# CrossPoint: Self-Supervised Cross-Modal Contrastive Learning for 3D Point Cloud Understanding (CVPR'22)
-#### [Paper Link](https://arxiv.org/abs/2203.00680) | [Project Page](https://mohamedafham.github.io/CrossPoint/) 
+# [TMM 2023] Self-Supervised Intra-Modal and Cross-Modal Contrastive Learning for Point Cloud Understanding
 
-> #### Abstract :
-> Manual annotation of large-scale point cloud dataset for varying tasks such as 3D object classification, segmentation and detection is often laborious owing to the irregular structure of point clouds. Self-supervised learning, which operates without any human labeling, is a promising approach to address this issue. We observe in the real world that humans are capable of mapping the visual concepts learnt from 2D images to understand the 3D world. Encouraged by this insight, we propose CrossPoint, a simple cross-modal contrastive learning approach to learn transferable 3D point cloud representations. It enables a 3D-2D correspondence of objects by maximizing agreement between point clouds and the corresponding rendered 2D image in the invariant space, while encouraging invariance to transformations in the point cloud modality. Our joint training objective combines the feature correspondences within and across modalities, thus ensembles a rich learning signal from both 3D point cloud and 2D image modalities in a self-supervised fashion. Experimental results show that our approach outperforms the previous unsupervised learning methods on a diverse range of downstream tasks including 3D object classification and segmentation. Further, the ablation studies validate the potency of our approach for a better point cloud understanding.
+#### [Paper Link](https://ieeexplore.ieee.org/abstract/document/10147273/) | [Project Page](https://github.com/liujia99/CrossNet/) 
+
+## Introduction
+
+This paper proposes a self-supervised point cloud understanding method called CrossNet. CrossNet is simple and efficient, developing the intra-modal contrastive loss between the point clouds and the cross-modal contrastive loss between the point clouds and images. Finally, we combine the overall training objectives.
+
+<img src="docs/CrossNet.jpg" align="center" width="100%">
 
 ## Citation
 
-If you find our work, this repository, or pretrained models useful, please consider giving a star ⭐ and citation.
+If you entrust our work with value, please consider giving a star ⭐ and citation.
+
 ```bibtex
-@inproceedings{afham2022crosspoint,
-    title={CrossPoint: Self-Supervised Cross-Modal Contrastive Learning for 3D Point Cloud Understanding}, 
-    author={Mohamed Afham and Isuru Dissanayake and Dinithi Dissanayake and Amaya Dharmasiri and Kanchana Thilakarathna and Ranga Rodrigo},
-    booktitle={IEEE/CVF International Conference on Computer Vision and Pattern Recognition},
-    month = {June},
-    year={2022}
-  }
+@article{wu2023self,
+  title={Self-Supervised Intra-Modal and Cross-Modal Contrastive Learning for Point Cloud Understanding},
+  author={Wu, Yue and Liu, Jiaming and Gong, Maoguo and Gong, Peiran and Fan, Xiaolong and Qin, AK and Miao, Qiguang and Ma, Wenping},
+  journal={IEEE Transactions on Multimedia},
+  year={2023},
+  publisher={IEEE}
+}
 ```
 
 ## Dependencies
 
 Refer `requirements.txt` for the required packages.
 
-## Pretrained Models
-
-CrossPoint pretrained models with DGCNN feature extractor are available [here.](https://drive.google.com/drive/folders/10TVEIRUBCh3OPulKI4i2whYAcKVdSURn?usp=sharing)
-
 ## Download data
 
-Datasets are available [here](https://drive.google.com/drive/folders/1dAH9R3XDV0z69Bz6lBaftmJJyuckbPmR?usp=sharing). Run the command below to download all the datasets (ShapeNetRender, ModelNet40, ScanObjectNN, ShapeNetPart) to reproduce the results.
+Datasets are available [here](https://drive.google.com/drive/folders/1dAH9R3XDV0z69Bz6lBaftmJJyuckbPmR?usp=sharing). Run the command below to download all the datasets (ShapeNetRender, ModelNet40, ScanObjectNN, ShapeNetPart) to reproduce the results. Additional [S3DIS](http://buildingparser.stanford.edu/dataset.html) is optional.
 
 ```
 cd data
 source download_data.sh
 ```
 
-## Train CrossPoint
+## Train CrossNet
 
-Refer `scripts/script.sh` for the commands to train CrossPoint.
+Refer `python train_crossnet_con.py` for the command to train CrossNet.
 
 ## Downstream Tasks
 
 ### 1. 3D Object Classification 
 
-Run `eval_ssl.ipynb` notebook to perform linear SVM object classification in both ModelNet40 and ScanObjectNN datasets.
+Run `downstream/classification/main.py`  to perform linear SVM object classification in both ModelNet40 and ScanObjectNN datasets.
 
 
-### 2. Few-Shot Object Classification
+### 2. 3D Object Part Segmentation
 
-Refer `scripts/fsl_script.sh` to perform few-shot object classification.
+Refer `downstream/segmentation/main_partseg.py` for fine-tuning experiment for part segmentation in ShapeNetPart dataset.
 
-### 3. 3D Object Part Segmentation
+### 3. 3D Object Semantic Segmentation
 
-Refer `scripts/script.sh` for fine-tuning experiment for part segmentation in ShapeNetPart dataset.
+Refer `downstream/segmentation/main_semseg.py` for fine-tuning experiment for semantic segmentation in S3DIS dataset.
 
 ## Acknowledgements
-Our code borrows heavily from [DGCNN](https://github.com/WangYueFt/dgcnn) repository. We thank the authors of DGCNN for releasing their code. If you use our model, please consider citing them as well.
+
+Our code borrows heavily from [CrossPoint](https://github.com/MohamedAfham/CrossPoint) repository. We thank the authors of CrossPoint for releasing their code. 
