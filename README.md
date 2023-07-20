@@ -19,6 +19,7 @@ by Yue Wu, Hangqi Ding, Maoguo Gong, A. K. Qin, Wenping Ma, Qiguang Miao, Kay Ch
 
 ## Citation
 If you find the code or algorithm useful, please consider citing:<br>
+```
       @ARTICLE{9925083,<br>
       author={Wu, Yue and Ding, Hangqi and Gong, Maoguo and Qin, A. K. and Ma, Wenping and Miao, Qiguang and Tan, Kay Chen},<br>
       journal={IEEE Transactions on Evolutionary Computation},<br>
@@ -27,3 +28,5 @@ If you find the code or algorithm useful, please consider citing:<br>
       pages={1-1},<br>
       doi={10.1109/TEVC.2022.3215743}<br>
       }
+```
+      
