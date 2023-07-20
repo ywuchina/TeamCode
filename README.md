@@ -18,12 +18,12 @@ by Yue Wu, Hangqi Ding, Maoguo Gong, A. K. Qin, Wenping Ma, Qiguang Miao, Kay Ch
 * [The Stanford 3D Scanning Repository](http://graphics.stanford.edu/data/3Dscanrep/)
 
 ## Citation
-If you find the code or algorithm useful, please consider citing:\<br>
-  @ARTICLE{9925083,\<br>
-  author={Wu, Yue and Ding, Hangqi and Gong, Maoguo and Qin, A. K. and Ma, Wenping and Miao, Qiguang and Tan, Kay Chen},\<br>
-  journal={IEEE Transactions on Evolutionary Computation},\<br>
-  title={Evolutionary Multiform Optimization with Two-stage Bidirectional Knowledge Transfer Strategy for Point Cloud Registration},\<br>
-  year={2022},\<br>
-  pages={1-1},\<br>
-  doi={10.1109/TEVC.2022.3215743}\<br>
+If you find the code or algorithm useful, please consider citing:<br>
+  @ARTICLE{9925083,<br>
+  author={Wu, Yue and Ding, Hangqi and Gong, Maoguo and Qin, A. K. and Ma, Wenping and Miao, Qiguang and Tan, Kay Chen},<br>
+  journal={IEEE Transactions on Evolutionary Computation},<br>
+  title={Evolutionary Multiform Optimization with Two-stage Bidirectional Knowledge Transfer Strategy for Point Cloud Registration},<br>
+  year={2022},<br>
+  pages={1-1},<br>
+  doi={10.1109/TEVC.2022.3215743}<br>
   }
