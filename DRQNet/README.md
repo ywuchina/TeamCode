@@ -10,7 +10,7 @@ In this paper, we propose a novel framework for the dual representation query ne
 
 <img src="imgs\DRQNet.jpg" align="center" width="100%">
 
-## Train DRQNet
+## Run DRQNet
 
 First, follow the RandLA-Net [instruction](https://github.com/QingyongHu/RandLA-Net) to prepare the dataset.
 
@@ -39,7 +39,3 @@ If you entrust our work with value, please consider giving a star ⭐ and citati
 ## Acknowledgements
 
 Our code borrows heavily from [SQN](https://github.com/QingyongHu/SQN) repository. We thank Dr. Hu and other authors for releasing their code. More, we are preparing the pytorch version of DRQNet, please stay tuned.
-
-
-
-
