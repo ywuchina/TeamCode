@@ -1,4 +1,4 @@
-# [IEEE TIM] Instance-Guided Point Cloud Single Object Tracking with Inception Transformer"
+# [IEEE TIM] Instance-Guided Point Cloud Single Object Tracking with Inception Transformer
 
 [Paper Link]() | [Project Page](https://github.com/ywu0912/TeamCode/tree/liujia99/PTIT) 
 
@@ -6,7 +6,7 @@
 
 We propose a novel framework, the inception transformer-based point tracker for 3D point cloud tracking through four main stages: 1) feature extraction; 2) feature transform; 3) feature matching; and 4) feature offset.
 
-<img src="docs/PTIT.png" align="center" width="100%">
+<img src="docs/ptit.png" align="center" width="100%">
 
 ## Installation
 Create conda environment and install pytorch. Tested with pytorch 1.8.0 and CUDA 11.1. Might work with other versions as well, but not tested.
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 
 ## Training and Testing
-Train with the KITTI dataset (e.g., for the Car class)
+Train with the KITTI dataset (e.g., for the Car category)
 ```
 python train_tracking.py --category_name Car --save_root_dir checkpoints/kitti/Car/I --model I
 ```
