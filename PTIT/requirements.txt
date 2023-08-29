@@ -1,0 +1,12 @@
+h5py
+numpy
+enum34
+future
+pandas
+shapely
+matplotlib
+pomegranate
+ipykernel
+jupyter
+imageio
+pyquaternion
