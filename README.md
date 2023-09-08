@@ -16,7 +16,7 @@ Yue Wu, ***Jiaming Liu***, Yongzhe Yuan, Xidao Hu, Xiaolong Fan, Kunkun Tu, Maog
 - - -
 **`DRQNet`——Exploring Dual Representations in Large-Scale Point Clouds: A Simple Weakly Supervised Semantic Segmentation Framework**
 
-***Jiaming Liu*** and Yue Wu, Maoguo Gong, Qiguang Miao, Wenping Ma, Cai Xu
+***Jiaming Liu***, Yue Wu, Maoguo Gong, Qiguang Miao, Wenping Ma, Cai Xu
 
 *Proceedings of the 31st ACM International Conference on Multimedia*, 2023
 - - -
@@ -28,13 +28,13 @@ Yue Wu, ***Jiaming Liu***, Yongzhe Yuan, Xidao Hu, Xiaolong Fan, Kunkun Tu, Maog
 - - -
 **`MPCT`——MPCT: Multiscale Point Cloud Transformer with a Residual Network**
 
-Yue Wu, ***Jiaming Liu***, Maoguo Gong, Zhixiao Liu, Qiguang Miao, Wenping Ma, Fei Xie
+Yue Wu, ***Jiaming Liu***, Maoguo Gong, Zhixiao Liu, Qiguang Miao, Wenping Ma
 
 *IEEE Transactions on Multimedia*, 2023
 - - -
 **`Inter-MAE`——Inter-Modal Masked Autoencoder for Self-Supervised Learning on Point Clouds**
 
-***Jiaming Liu***, Yue Wu, Maoguo Gong, Zhixiao Liu, Qiguang Miao, Wenping Ma, Fei Xie
+***Jiaming Liu***, Yue Wu, Maoguo Gong, Zhixiao Liu, Qiguang Miao, Wenping Ma
 
 *IEEE Transactions on Multimedia*, 2023
 - - -
