@@ -1,4 +1,4 @@
-# Point Cloud Paper & Code with [SuperYuezhang](https://github.com/superYuezhang)
+# Point Cloud Paper & Code with [Yuezhang](https://github.com/superYuezhang)
 
 > I appreciate your interest in our works and look forward to making progress together for 3D community development.
 >
