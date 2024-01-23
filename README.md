@@ -2,14 +2,15 @@
 
 > I appreciate your interest in our works and look forward to making progress together for 3D community development.
 >
-> Please move to [Original Repository](https://github.com/superYuezhang) for any questions.
+> Please move to [Original Repository](https://github.com/superYuezhang) for any issues.
 - - -
 
 
 **`RORNet`——[RORNet: Partial-to-Partial Registration Network With Reliable Overlapping Representations](https://ieeexplore.ieee.org/document/10168979)**
 
-by Yue Wu , **Yue Zhang** , Wenping Ma , Maoguo Gong , Xiaolong Fan , Mingyang Zhang , A. K. Qin , and Qiguang Miao.
+Yue Wu , **Yue Zhang** , Wenping Ma , Maoguo Gong , Xiaolong Fan , Mingyang Zhang , A. K. Qin , and Qiguang Miao.
 
+**⭐️ The original repository is [here](https://github.com/superYuezhang/RORNet).**
 ```
 @article{2023rornet,
   title={RORNet: Partial-to-Partial Registration Network With Reliable Overlapping Representations},
@@ -24,7 +25,8 @@ by Yue Wu , **Yue Zhang** , Wenping Ma , Maoguo Gong , Xiaolong Fan , Mingyang Z
 
 **`INENet`——[INENet: Inliers Estimation Network With Similarity Learning for Partial Overlapping Registration](https://ieeexplore.ieee.org/document/9915616)**
 
-by Yue Wu, **Yue Zhang**, Xiaolong Fan, Maoguo Gong, Qiguang Miao, Wenping Ma.
+Yue Wu, **Yue Zhang**, Xiaolong Fan, Maoguo Gong, Qiguang Miao, Wenping Ma.
+**⭐️ The original repository is [here](https://github.com/superYuezhang/INENet).**
 
 ```
 @article{2023inenet,
