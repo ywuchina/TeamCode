@@ -1,2 +1,2 @@
 # PointODR
-We will update the repository after the paper is received.
+Please move to [here](https://github.com/superYuezhang/PointODR) for any questions.
