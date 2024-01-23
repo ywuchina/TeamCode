@@ -26,6 +26,7 @@ Yue Wu , **Yue Zhang** , Wenping Ma , Maoguo Gong , Xiaolong Fan , Mingyang Zhan
 **`INENet`——[INENet: Inliers Estimation Network With Similarity Learning for Partial Overlapping Registration](https://ieeexplore.ieee.org/document/9915616)**
 
 Yue Wu, **Yue Zhang**, Xiaolong Fan, Maoguo Gong, Qiguang Miao, Wenping Ma.
+
 **⭐️ The original repository is [here](https://github.com/superYuezhang/INENet).**
 
 ```
