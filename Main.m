@@ -8,11 +8,11 @@ source=2;
 param.mu= 0.02 ;                      
 param.sigma=0.6 ;                      
 pop=100;                                         
-gen=50;                                 
+gen=60;                                 
 pop_S=pop/1;                                   
 selection_pressure = 'roulette wheel'; 
 p_il = 0;                                   
-rmp=0.3;                               
+rmp=0.5;                               
 scannum= size(data,2);                 
 gridsize = 0.009;                     
 sample_ration=0.1;                     
@@ -40,10 +40,10 @@ t_real=GrtT{1, source};
 %M=rigid3d(R_real', t_real');  tform = affine3d(M.T);t_pc1 = pctransform(pc{2}, tform);t_pc2 = pc{1};pcshowpair(t_pc1,t_pc2)
 disp('++++++++   Start the point cloud registration method   ++++++++');
 clear Tasks
-rotation=4;                                                               
+rotation=2;                                                               
 n = 6;                                                                     
-l_trans = min([norm_pc{1}.Location; norm_pc{2}.Location]);
-u_trans = max([norm_pc{1}.Location; norm_pc{2}.Location]);
+l_trans = 0.5*min([norm_pc{1}.Location; norm_pc{2}.Location]);
+u_trans = 0.5*max([norm_pc{1}.Location; norm_pc{2}.Location]);
 l_rot = (-pi)/rotation * ones(1,3);                                        
 u_rot = pi/rotation * ones(1,3);
 param.iter_huber = 3*max(u_trans-l_trans);                                   
