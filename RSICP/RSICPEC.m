@@ -1,4 +1,4 @@
-function [RotMat2, TransVec2] = Optimization_RSICP(src,tar) 
+function [RotMat2, TransVec2] = RSICPEC(src,tar) 
 
 source = src;     % 1x1 pointCloud
 target = tar;     % pcshowpair(source,target)
