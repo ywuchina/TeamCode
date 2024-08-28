@@ -1,0 +1,37 @@
+function [task,task_size,pool] = divide_task(X,n_feature,idx,weight,pool)
+     for i=1:size(weight,2)
+         task_size(i,1)=i;
+         task_size(i,2)=weight(1,i);
+     end
+     relieff_task=sortrows(task_size,2);
+     task=[];
+task_size=zeros(2,1);
+%      plot(task(:,2));
+%find knee point
+     x1 = 1;
+     y1 = relieff_task(1,2);
+     x2 = size(relieff_task,1);
+     y2 = relieff_task(x2,2);
+     k = (y1-y2)/(x1-x2);
+     b = y1-k*x1;
+     d = zeros(size(relieff_task,1),1);
+     for i = 1:size(d,1)
+         d(i) = abs(k*i+b-relieff_task(i,2))/sqrt(k*k+1);
+     end
+     [~,kneepoint_idx] = max(d);
+     kneepoint=relieff_task(kneepoint_idx,2);
+     %两个task，task1是有潜力的特征，task2是全部特征集
+     for i=1:n_feature
+         task(2,i)=1;
+         if weight(i)>kneepoint
+             task(1,i)=1;
+             task_size(1,1)=task_size(1,1)+1;
+         else
+             task(1,i)=0;
+         end
+          task_size(2,1)=task_size(2,1)+1;
+     end
+     
+     aa=1;
+end
+
