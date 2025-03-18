@@ -10,7 +10,7 @@
 + **[MUCD](https://github.com/ywuchina/TeamCode/tree/main/MUCD)**:
  ``[AAAI 2024 orl] MUCD: Unsupervised Point Cloud Change Detection via Masked Consistency``
 + **[MMMI](https://github.com/ywuchina/TeamCode/tree/main/MMMI)**:
-  ``[AAAI 2024 orl] MUCD: Unsupervised Point Cloud Change Detection via Masked Consistency``
+  ``[IEEE TCSVT 2024] Learning discriminative features via multi-hierarchical mutual information for unsupervised point cloud registration``
 + **[M3SOT](https://github.com/liujia99/M3SOT)**:
   ``[AAAI 2024] M3SOT: Multi-frame, Multi-field, Multi-space 3D Single Object Tracking``
 + **[AEMT](https://github.com/ywuchina/TeamCode/tree/AEMT/AEMT)**:
