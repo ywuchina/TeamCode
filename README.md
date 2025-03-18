@@ -52,8 +52,6 @@
 
 + **[INENet](https://github.com/superYuezhang/INENet)**:
   ``[IEEE TCSVT 2022] INENet: Inliers Estimation Network With Similarity Learning for Partial Overlapping Registration``
-+ **[INENet](https://github.com/ywuchina/TeamCode/tree/INENet_zhangyue)**:
-  ``[IEEE TCSVT 2022] INENet: Inliers Estimation Network with Similarity Learning for Partial Overlapping Registration``
 
 ## 2021
 + **[COAE](https://github.com/ywuchina/TeamCode/tree/main/COAE)**:
