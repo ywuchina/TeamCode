@@ -1,4 +1,4 @@
 # Collection of Code for Paper Publication
 
-+ **[MUCA]()**:
- ``[CVPR 2024] Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians``
++ **[MUCD]()**:
+ ``[AAAI 2024 orl] MUCD: Unsupervised Point Cloud Change Detection via Masked Consistency``
