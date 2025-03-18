@@ -2,10 +2,10 @@
 
 ## 2025
 
-+ **[DPAGen](https://github.com/ywuchina/TeamCode/tree/main/DPAGen)**:\\
++ **[DPAGen](https://github.com/ywuchina/TeamCode/tree/main/DPAGen)**:\n
  ``[CVPR 2025] Disentangled Pose and Appearance Guidance for Multi-Pose Generation``
 
-+ **[MUCD](https://github.com/ywuchina/TeamCode/tree/main/MUCD)**:\\
++ **[MUCD](https://github.com/ywuchina/TeamCode/tree/main/MUCD)**:\n
  ``[AAAI 2024 orl] MUCD: Unsupervised Point Cloud Change Detection via Masked Consistency``
 
 ## 2024
