@@ -6,7 +6,7 @@ Official implementation of "Disentangled Pose and Appearance Guidance for Multi-
 * **[2025.2.26]** Our paper [Disentangled Pose and Appearance Guidance for Multi-Pose Generation]() has been accepted at the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2025!
 
 ## Method
-<img src=Figure/overview.png>
+<img src=Figures/overview.png>
 
 # Citation
 
