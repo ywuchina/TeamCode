@@ -2,10 +2,16 @@
 
 ## 2026
 + **[DcSplat](https://github.com/ywuchina/TeamCode/tree/main/DcSplat)**:
- ``[AAAI[AA 20 DcSplat: Dual-Constraint Human Gaussian Splatting with Latent Multi-View Consistency``
+ ``[AAAI 2026] DcSplat: Dual-Constraint Human Gaussian Splatting with Latent Multi-View Consistency``
+
++ **[HVoF]**:
+ ``[AAAI 2026] Hybrid Vector-Occupancy Field for Robust Implicit 3D Surface Reconstruction``
 
 
 ## 2025
+
++ **[PointTruss]()**:
+ ``[NeurIPS 2025] PointTruss: K-Truss for Point Cloud Registration, Annual Conference on Neural Information Processing Systems``
 
 + **[DPAGen](https://github.com/ywuchina/TeamCode/tree/main/DPAGen)**:
  ``[CVPR 2025] Disentangled Pose and Appearance Guidance for Multi-Pose Generation``
@@ -61,6 +67,7 @@
 ## 2021
 + **[COAE](https://github.com/ywuchina/TeamCode/tree/main/COAE)**:
   ``[IEEE TNNLS 2021] Commonality Autoencoder: Learning Common Features for Change Detection from Heterogeneous Images``
+
 
 
 
