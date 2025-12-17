@@ -1,5 +1,10 @@
 # Collection of Code for Paper Publication
 
+## 2026
++ **[DcSplat](https://github.com/ywuchina/TeamCode/tree/main/DcSplat)**:
+ ``[AAAI[AA 20 DcSplat: Dual-Constraint Human Gaussian Splatting with Latent Multi-View Consistency``
+
+
 ## 2025
 
 + **[DPAGen](https://github.com/ywuchina/TeamCode/tree/main/DPAGen)**:
@@ -56,6 +61,7 @@
 ## 2021
 + **[COAE](https://github.com/ywuchina/TeamCode/tree/main/COAE)**:
   ``[IEEE TNNLS 2021] Commonality Autoencoder: Learning Common Features for Change Detection from Heterogeneous Images``
+
 
 
 
