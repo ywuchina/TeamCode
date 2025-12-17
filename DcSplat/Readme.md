@@ -28,16 +28,3 @@ cd ..
 
 pip install  -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 ```
-
-# Citation
-
-If you find this code useful for your research, please consider citing:
-```
-@inproceedings{xiao2025disentangled,
-  title={Disentangled Pose and Appearance Guidance for Multi-Pose Generation},
-  author={Xiao, Tengfei and Wu, Yue and Li, Yuelong and Qin, Can and Gong, Maoguo and Miao, Qiguang and Ma, Wenping},
-  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
-  pages={5646--5655},
-  year={2025}
-}
-```
